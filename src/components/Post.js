@@ -1,6 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
-export default function Post() {
-  return <div className="container">asjdhna</div>;
+import "./post.css";
+export default function Post({ config }) {
+  return (
+    <div className="card">
+      <h1>{config}</h1>
+      <h1></h1>
+      <h1></h1>
+      <h1></h1>
+    </div>
+  );
 }
