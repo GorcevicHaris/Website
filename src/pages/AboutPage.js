@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./about.css";
 export default function AboutPage() {
-  return <div>AboutPage</div>;
+  return <div className="container"></div>;
 }

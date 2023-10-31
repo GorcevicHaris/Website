@@ -11,7 +11,9 @@ function Header() {
         </Link>
       </div>
       <div className="aboutUs">
-        <h1>About</h1>
+        <Link style={{ textDecoration: "none" }} to={"/about"}>
+          <h1>About</h1>
+        </Link>
       </div>
     </div>
   );
