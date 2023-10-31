@@ -1,5 +1,15 @@
 import React from "react";
 import "./data.css";
+import { useLocation } from "react-router-dom";
 export default function MoreData() {
-  return <div className="container"></div>;
+  const { state } = useLocation();
+  const { product } = state;
+  console.log(state);
+  return (
+    <div className="container">
+      {state.title}
+
+      <h1>asldijasid</h1>
+    </div>
+  );
 }

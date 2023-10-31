@@ -15,18 +15,14 @@ function HomePage() {
   useEffect(() => {
     getData();
   }, []);
-  // console.log(data[0].source.id);
+  // console.log(data[0].source.id  );
   return (
     <div className="homepage">
       <div className="banner">
         <img src="gazafree.jpg"></img>
       </div>
       <div className="main">
-        {data ? (
-          data.map((el) => <Post config={el.source.name} />)
-        ) : (
-          <h1>nema podataka</h1>
-        )}
+        {data ? data.map((el) => <Post config={el} />) : <h1>nema podataka</h1>}
       </div>
     </div>
   );
