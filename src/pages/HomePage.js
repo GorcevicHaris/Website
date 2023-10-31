@@ -15,7 +15,7 @@ function HomePage() {
   useEffect(() => {
     getData();
   }, []);
-  console.log(data[0].source.id);
+  // console.log(data[0].source.id);
   return (
     <div className="homepage">
       <div className="banner">

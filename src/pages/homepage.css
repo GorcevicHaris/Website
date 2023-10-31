@@ -5,8 +5,9 @@
 }
 .homepage{
     width: 100vw;
-    height: 250vh;
+    height: 300vh;
     padding-top: 30px;
+    background-color: yellow;
 }
 .banner{
     width: 100%;
@@ -24,4 +25,7 @@ img{
     background-color: yellow;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
 }
