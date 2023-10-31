@@ -4,7 +4,7 @@ function HomePage() {
   return (
     <div className="homepage">
       <div className="banner">
-        <img src="gaza.jpg"></img>
+        <img src="gazafree.jpg"></img>
       </div>
     </div>
   );

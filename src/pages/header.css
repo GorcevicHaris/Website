@@ -9,7 +9,7 @@
     /* background-color: yellow; */
     display: flex;
     padding-left: 50px;
-    background-color: red;
+    background-color: black;
 }
 .logo{
     width: 19%;
@@ -19,17 +19,19 @@
 img{
     width: 100%;
     height: 100%;
+    box-sizing: 10px 10px 10px solid black;
 }
 .aboutUs{
     width: 81%;
-    background-color: red;
+    background-color: white;
     display: flex;
     justify-content: end;
     align-items: center;
     padding-right: 50px;
+    background-color: black;
 }
 h1{
     font-weight: 100;
     font-size: 25px;
-    color: white;
+    color: green;
 }
