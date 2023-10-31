@@ -3,13 +3,13 @@ import "./data.css";
 import { useLocation } from "react-router-dom";
 export default function MoreData() {
   const { state } = useLocation();
-  const { product } = state;
-  console.log(state);
+  const product = state.data;
+  console.log(product);
   return (
     <div className="container">
-      {state.title}
-
-      <h1>asldijasid</h1>
+      <h1 style={{ color: "black" }}> {product.author}</h1>
+      <h1>{product.title}</h1>
+      <h1 style={{ color: "red" }}> {product.description}</h1>
     </div>
   );
 }

@@ -22,7 +22,7 @@ function HomePage() {
         <img src="gazafree.jpg"></img>
       </div>
       <div className="main">
-        {data ? data.map((el) => <Post config={el} />) : <h1>nema podataka</h1>}
+        {data ? data.map((el) => <Post data={el} />) : <h1>nema podataka</h1>}
       </div>
     </div>
   );
