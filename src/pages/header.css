@@ -9,6 +9,7 @@
     /* background-color: yellow; */
     display: flex;
     padding-left: 50px;
+    background-color: red;
 }
 .logo{
     width: 19%;
@@ -30,4 +31,5 @@ img{
 h1{
     font-weight: 100;
     font-size: 25px;
+    color: white;
 }
