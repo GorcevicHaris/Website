@@ -6,6 +6,7 @@ export default function Post({ data }) {
 
   console.log(data.description);
   console.log(data.title);
+  console.log(data.urlToImage);
 
   return (
     <div
@@ -13,7 +14,6 @@ export default function Post({ data }) {
       className="card"
     >
       <h1>{data.title}</h1>
-
       {/* <h1>{data.description}</h1> */}
 
       <h1></h1>

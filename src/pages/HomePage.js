@@ -12,6 +12,7 @@ function HomePage() {
       )
       .then((response) => setData(response.data.articles));
   }
+
   useEffect(() => {
     getData();
   }, []);
