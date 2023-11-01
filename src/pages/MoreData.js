@@ -1,6 +1,7 @@
 import React from "react";
 import "./data.css";
 import { useLocation } from "react-router-dom";
+import { hover } from "@testing-library/user-event/dist/hover";
 export default function MoreData() {
   const { state } = useLocation();
   const product = state.data;
@@ -19,7 +20,18 @@ export default function MoreData() {
         </div>
       </div>
       <h1>
-        <a href={product.url}>Source</a>
+        <a
+          style={{
+            textDecoration: "none",
+            color: "white",
+            fontWeight: "bold",
+            fontFamily: "revert-layer",
+          }}
+          target="_blank"
+          href={product.url}
+        >
+          Source
+        </a>
       </h1>
     </div>
   );
