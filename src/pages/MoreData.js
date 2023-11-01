@@ -22,7 +22,6 @@ export default function MoreData() {
       <h1>
         <a
           style={{
-            textDecoration: "none",
             color: "white",
             fontWeight: "bold",
             fontFamily: "revert-layer",
