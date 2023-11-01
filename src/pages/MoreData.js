@@ -10,17 +10,17 @@ export default function MoreData() {
     <div className="container">
       {/* <h1 style={{ fontSize: "30px" }}>About Us</h1> */}
       <div className="about">
-        <div className="image">
+        <div style={{ zIndex: "10" }} className="image">
           <img
-            style={{ borderRadius: "0" }}
+            style={{ borderRadius: "0", zIndex: "10" }}
             className="slika"
-            src={product.urlToImage}
+            src={product.urlToImage == null ? "" : product.urlToImage}
           ></img>
         </div>
         <div className="data">
-          <h1 style={{ color: "black" }}> {product.author}</h1>
-          <h1 style={{ color: "green" }}>{product.title}</h1>
-          <h1 style={{ color: "red" }}> {product.description}</h1>
+          <h1 style={{ color: "black", zIndex: "0" }}> {product.author}</h1>
+          <h1 style={{ color: "green", zIndex: "0" }}>{product.title}</h1>
+          <h1 style={{ color: "red", zIndex: "0" }}> {product.description}</h1>
         </div>
       </div>
       <h1>
