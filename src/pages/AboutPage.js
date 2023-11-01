@@ -4,8 +4,24 @@ export default function AboutPage() {
   return (
     <div className="containers">
       <div className="myInfo">
-        <h1>Moja Prica</h1>
-        <h1 style={{ fontSize: "30px" }}>
+        <h1
+          style={{
+            fontSize: "50px",
+            fontWeight: "bold",
+            fontFamily: "cursive",
+            color: "black",
+          }}
+        >
+          M o j a P r i c a
+        </h1>
+        <h1
+          style={{
+            fontSize: "30px",
+            fontWeight: "bold",
+            fontFamily: "cursive",
+            color: "black",
+          }}
+        >
           Započeo sam svoju programersku avanturu kada sam prvi put sreo
           računar. Osećao sam se kao da sam ponovno sreo starog prijatelja.
           Programiranje me privuklo svojom kreativnošću i mogućnošću rešavanja
@@ -16,7 +32,7 @@ export default function AboutPage() {
         </h1>
       </div>
       <div className="photo">
-        <img style={{ borderRadius: "0" }} src="myself.jpg"></img>
+        <img style={{ borderRadius: "50%" }} src="myself.jpg"></img>
       </div>
     </div>
   );
