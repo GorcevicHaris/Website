@@ -20,7 +20,7 @@ function HomePage() {
   return (
     <div className="homepage">
       <div className="banner">
-        <img src="freegaza.webp"></img>
+        <img className="ban" src="freegaza.webp"></img>
       </div>
       <div className="main">
         {data ? data.map((el) => <Post data={el} />) : <h1>nema podataka</h1>}

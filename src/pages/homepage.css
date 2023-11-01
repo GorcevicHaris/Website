@@ -29,3 +29,6 @@ img{
     justify-content: center;
     gap: 20px;
 }
+.ban{
+    border-radius: 0;
+}

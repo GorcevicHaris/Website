@@ -3,8 +3,23 @@
     margin: 0;
     box-sizing: border-box;
 }
-.container{
+.containers{
     width: 100vw;
     height: 100vh;
-    background-color: green;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+.photo{
+    width: 40%;
+    height: 80%;
+    background-color: pink;
+}
+.myInfo{
+    width: 40%;
+    height: 80%;
+    background-color: blue;
 }

@@ -11,7 +11,11 @@ export default function MoreData() {
       {/* <h1 style={{ fontSize: "30px" }}>About Us</h1> */}
       <div className="about">
         <div className="image">
-          <img className="slika" src={product.urlToImage}></img>
+          <img
+            style={{ borderRadius: "0" }}
+            className="slika"
+            src={product.urlToImage}
+          ></img>
         </div>
         <div className="data">
           <h1 style={{ color: "black" }}> {product.author}</h1>
