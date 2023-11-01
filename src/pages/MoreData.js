@@ -15,7 +15,7 @@ export default function MoreData() {
         </div>
         <div className="data">
           <h1 style={{ color: "black" }}> {product.author}</h1>
-          <h1>{product.title}</h1>
+          <h1 style={{ color: "green" }}>{product.title}</h1>
           <h1 style={{ color: "red" }}> {product.description}</h1>
         </div>
       </div>

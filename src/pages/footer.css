@@ -21,7 +21,7 @@
 .footer
 {
   background-color:
-  #333;
+  green;
   color:
   #fff;
   padding:
@@ -111,4 +111,7 @@ li
   100vh;
   background-color:
   red;
+}
+a{
+  border-bottom: 1px solid black;
 }

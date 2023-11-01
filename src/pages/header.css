@@ -9,7 +9,7 @@
     /* background-color: yellow; */
     display: flex;
     padding-left: 50px;
-    background-color: black;
+    background-color: green;
     position: fixed;
 }
 .logo{
@@ -28,12 +28,17 @@ img{
     justify-content: end;
     align-items: center;
     padding-right: 50px;
-    background-color: black;
-
+    background-color: green;
 }
 h1{
     font-weight: 100;
     font-size: 25px;
     color: green;
-    
+    border-bottom: 3px solid transparent;
+}
+.underliner:hover {
+    text-decoration: none; /* Postavite text-decoration na none kako biste uklonili inicijalnu donju crtu */
+     /* Dodajte transparentnu donju crtu */
+    transition: 0.3s;
+    border-bottom: 3px solid white;
 }
