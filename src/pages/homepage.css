@@ -28,6 +28,7 @@ img{
     align-items: center;
     justify-content: center;
     gap: 20px;
+    padding-top: 25px;
 }
 .ban{
     border-radius: 0;
