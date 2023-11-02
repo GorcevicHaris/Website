@@ -30,7 +30,7 @@ export default function MoreData() {
       <h1>
         <a
           style={{
-            color: "white",
+            color: "lightgreen",
             fontWeight: "bold",
             fontFamily: "revert-layer",
           }}
