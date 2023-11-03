@@ -33,13 +33,13 @@ export default function AboutPage() {
             rastem.
           </h1>
           <div className="divForImages">
-            <a href="https://github.com/GorcevicHaris">
+            <a target="_blank" href="https://github.com/GorcevicHaris">
               <img className="sameClass" src="icon1.png"></img>
             </a>
-            <a href="https://www.instagram.com/harisgorcevic/">
+            <a target="_blank" href="https://www.instagram.com/harisgorcevic/">
               <img className="sameClass" src="icon2.png"></img>
             </a>
-            <a href="tel:+0645570316">
+            <a target="_blank" href="tel:+0645570316">
               <img className="sameClass" src="icon3.png"></img>
             </a>
           </div>

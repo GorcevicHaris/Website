@@ -15,14 +15,18 @@ function HomePage() {
   useEffect(() => {
     getData();
   }, []);
-  // console.log(data[0].source.id  );
+  console.log(data);
   return (
     <div className="homepage">
       <div className="banner">
         <img className="ban" src="freegaza.webp"></img>
       </div>
       <div className="main">
-        {data ? data.map((el) => <Post data={el} />) : <h1>nema podataka</h1>}
+        {data ? (
+          data.map((el) => el.title !== "[Removed]" && <Post data={el} />)
+        ) : (
+          <h1>nema podataka</h1>
+        )}
       </div>
     </div>
   );
