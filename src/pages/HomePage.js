@@ -22,7 +22,7 @@ function HomePage() {
         <img className="ban" src="freegaza.webp"></img>
       </div>
       <div className="main">
-        {data ? (
+        {data != "[Removed]" ? (
           data.map((el) => el.title !== "[Removed]" && <Post data={el} />)
         ) : (
           <h1>nema podataka</h1>

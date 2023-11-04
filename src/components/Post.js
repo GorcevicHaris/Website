@@ -14,8 +14,8 @@ export default function Post({ data }) {
       onClick={() => navigate(`/post/${data.title}`, { state: { data } })}
       className="card"
     >
-      {data.title ? <h1>{data.title}</h1> : ""}
-      {data.description ? <h1>{data.description}</h1> : <h1>asusdh</h1>}
+      <h1>{data.title}</h1>
+      <h1>{data.description}</h1>
       {/*  */}
       <h1></h1>
       <h1></h1>

@@ -5,6 +5,7 @@ import { hover } from "@testing-library/user-event/dist/hover";
 export default function MoreData() {
   const { state } = useLocation();
   const product = state.data;
+  console.log(state);
   console.log(product);
   return (
     <div className="container">

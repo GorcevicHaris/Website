@@ -12,11 +12,14 @@ function Header() {
       </div>
       <div className="aboutUs">
         <Link style={{ textDecoration: "none" }} to={"/about"}>
-          <h1 className="underliner">About</h1>
+          <h1 style={{ fontSize: "27px" }} className="underliner">
+            About
+          </h1>
         </Link>
       </div>
     </div>
   );
 }
+//
 
 export default Header;

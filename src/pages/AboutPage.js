@@ -39,7 +39,7 @@ export default function AboutPage() {
             <a target="_blank" href="https://www.instagram.com/harisgorcevic/">
               <img className="sameClass" src="icon2.png"></img>
             </a>
-            <a target="_blank" href="tel:+0645570316">
+            <a target="_blank" href="tel:+0656495398">
               <img className="sameClass" src="icon3.png"></img>
             </a>
           </div>
